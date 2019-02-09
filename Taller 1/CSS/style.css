@@ -1,0 +1,40 @@
+.container {
+    display: grid inline-grid;
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+}
+
+body {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 150%;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px;
+    line-height: 33px;
+    background-image: url("/Taller 1/Resources/01.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+img {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+a:link,
+a:visited {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    cursor: pointer;
+}
