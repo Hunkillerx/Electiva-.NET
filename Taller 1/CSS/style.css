@@ -17,6 +17,13 @@ body {
     background-repeat: no-repeat;
 }
 
+#titulo{
+    font-size: 180%;
+}
+#titulo:hover{
+    color:white;
+    cursor:cell;
+}
 img {
     transition: transform .2s;
     margin: 0 auto;
@@ -39,7 +46,3 @@ a:active {
     cursor: pointer;
 }
 
-h1:hover{
-    color:white;
-    cursor:cell;
-}
