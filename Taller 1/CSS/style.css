@@ -19,7 +19,6 @@ body {
 
 img {
     transition: transform .2s;
-    /* Animation */
     margin: 0 auto;
 }
 
@@ -30,6 +29,7 @@ img:hover {
 a:link,
 a:visited {
     text-align: center;
+    color: blue;
     text-decoration: none;
     display: inline-block;
 }
@@ -37,4 +37,9 @@ a:visited {
 a:hover,
 a:active {
     cursor: pointer;
+}
+
+h1:hover{
+    color:white;
+    cursor:cell;
 }
