@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../Taller 3/CSS/style.css">
-    <script type="text/javascript"src="../Taller 3/JS/script.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <form action="">
         <div id="punto1">
             <p>
-                <input type="text" id="valorB">
-                <label >Valor base de producto</label>
+                <input type="text" id="valorB" name="valB">
+                <label>Valor base de producto</label>
             </p>
             <p>
-                <input type="text" id="valorI">
-                <label >Valor Iva</label>
+                <input type="text" id="valorI" name="valI">
+                <label>Valor Iva</label>
             </p>
-            <p>
-                <input type="text" id="valorT">
-                <label >Valor Total</label>
+            <p id="valorT">
             </p>
+            Valor Total
             <p>
-                <input type="button" value="Calcular" 
-                id="calcularIva" name="submit" onclick="calcularIva();" >
+                <input type="button" value="Calcular" id="calcularIva" name="submit">
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <input type="text" name="cadena" id="cad1">
+            </p>
+            <p id="numChars"></p>
+            <p id="invCad"></p>
+            <p id=invCadMayus></p>
+            <p>
+                <input type="button" value="leer" id="leerCadena">
             </p>
         </div>
     </form>
 </body>
+<script type="text/javascript" src="../Taller 3/JS/script.js"></script>
+
 </html>

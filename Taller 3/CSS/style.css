@@ -1,6 +1,6 @@
 #punto1{
     width: 30%;
     height: 30%;
-    padding-left:40%;
-    padding-top: 10%;
+    border-color: black;
+    border-style: solid;
 }
