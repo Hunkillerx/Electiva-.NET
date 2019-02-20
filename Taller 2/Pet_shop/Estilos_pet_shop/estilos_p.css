@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+    
+}
+
+body{
+    background:#D5DADD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor{
+    height: auto;
+    width: 700px;
+    border: 30px;
+    border-bottom: 40px;
+    background:#fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    width:700px;
+    height:175px;
+}
+#titulo{
+    color: rgb(87, 144, 161);
+    text-align-last: center ;
+    padding: 30px;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.menu a{
+    text-align: center;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.menu{
+    list-style: none;
+    background: grey;
+    list-style-type: disc;
+}
+.menu a:hover{
+    border-bottom: 5px solid rgb(76, 179, 50);
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-left: 100px;
+}
+#titulo2{
+    
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 45px;
+    font-size: 30px;
+    color: #0E83CA;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    
+}
+form{
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+label{
+    display: block;
+    font-size: 20px;
+    width: 100%;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+input:focus, textarea:focus {
+    border: 2px solid #ccc;
+}
+input[type="submit"]{
+    margin-bottom: 10px;
+    background:rgb(87, 144, 161);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+input[type="submit"]:hover{
+    background: rgb(0, 43, 235) ;
+    cursor:pointer;
+}
+input[type="reset"]{
+    margin-bottom: 10px;
+    background:rgb(87, 144, 161);
+    color: #fff;
+    font-size: 16px;
+}
+input[type="reset"]:hover{
+    background: rgb(0, 43, 235) ;
+    cursor:pointer;
+    margin-bottom: 0px;
+}
+
+
+table {
+    width: 250px;
+    border: 2px solid #ccc;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+tr {
+    
+    font-size: 30px;
+}
+
+td {
+    border: 2px solid #ccc;
+}
+#imagenes{
+    text-align: center;
+    height: 90%;
+}
+img{
+    width: 100%
+}
+
+footer{
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    display: inline-block;
+    background-color:#D5DADD;
+    width: 100%;
+}
+footer a{
+    color: rgb(87, 144, 161);
+}
