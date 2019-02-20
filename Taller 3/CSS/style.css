@@ -1,6 +1,8 @@
-#punto1{
+.borders{ 
     width: 30%;
     height: 30%;
     border-color: black;
     border-style: solid;
+    border-collapse: collapse;
 }
+
