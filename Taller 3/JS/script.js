@@ -33,22 +33,19 @@ boton2.onclick = function leerCadena() {
 boton3 = document.getElementById("cuadra");
 
 boton3.onclick = function darCuadratica() {
-    var a = document.getElementById("numb1");
-    var b = document.getElementById("numb2");
-    document.g
-    var c = document.getElementById("numb3");
+    var a = parseInt(document.getElementById("numb1").value);
+    var b = parseInt(document.getElementById("numb2").value);
+    var c = parseInt(document.getElementById("numb3").value);
     var result = document.getElementById("resultCuadra");
 
     function calcularCuadraPos(a, b, c) {
-        var resultadoPositivo = ((-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a))
+        var resultadoPositivo = ((parseInt(-b) + Math.sqrt(Math.pow(parseInt(b), 2) - (4 * parseInt(a) * parseInt(c)))) / (2 * parseInt(a)))
         return resultadoPositivo
     }
     function calcularCuadraNeg(a, b, c) {
-        var resultadoNegativo = (((-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a)))
-
+        var resultadoNegativo = ((parseInt(-b) - Math.sqrt(Math.pow(parseInt(b), 2) - (4 * parseInt(a) * parseInt(c)))) / (2 * parseInt(a)))
         return resultadoNegativo
     }
-
-    result.innerHTML = calcularCuadraPos(a, b, c) + calcularCuadraNeg(a,b,c);
+    result.innerHTML = "El resultado positivo es "+calcularCuadraPos(a,b,c).toString() +" y el resultado negativo es " + calcularCuadraNeg(a,b,c).toString();
 };
 
