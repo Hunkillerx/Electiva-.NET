@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/FunerariaBuenDescanso/estilos/styles2.css">
+    <title>Document</title>
+</head>
+<body class="twoColLiqLtHdr">
+
+    <div id="container"> 
+      <div id="header">
+        <h1><p align="center"></p></h1>
+      <!-- end #header --></div>
+      <div id="sidebar1">
+        <h3>Opciones</h3>
+        <ul>
+            <li>
+              <a href="index.html">
+                <p>Inicio</p>
+              </a>
+            </li>
+            <li>
+              <a href="calculoCostos.html">
+                <p>Calculo de costos</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <p>Servicios</p>
+              </a>
+            </li>
+          </ul>
+      <!-- end #sidebar1 --></div>
+      <div id="mainContent">
+        <select name="" id="selectPlan">
+            <option value="bronce">Bronce</option>
+            <option value="plata">Plata</option>
+            <option value="oro">Oro</option>
+        </select>
+        <select name="" id="selectServ">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <input type="button" value="seleccionar" onclick="seleccionarPlan()">
+        <div id="tabla">
+            <table>
+                <tr>
+                    <td>
+                        Nivel
+                    </td>
+                    <td>
+                        1
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Servicio
+                    </td>
+                    <td>
+                        1
+                    </td>
+                </tr>
+            </table>
+            <table>
+            <tr>
+                <th></th>
+                <th>Cotización 1</th>
+            </tr>
+            <tr>
+                <td>Feretro</td>
+                <td id="val1"> $1</td>
+            </tr>
+            <tr>
+                <td>Silleteria</td>
+                <td id="val2">$1</td>
+            </tr>
+            <tr>
+                <td>Cafeteria</td>
+                <td id="val3"><input type="text" ></td>
+            </tr>
+            <tr>
+                <td>Coronas</td>
+                <td id="val4">$1</td>
+            </tr>
+            <tr>
+                <td>Servicio Misa</td>
+                <td id="val5">$1</td>
+            </tr>
+            <tr>
+                <td>Discurso despedida</td>
+                <td id="val6">$1</td>
+            </tr>
+            <tr>
+                <td>Servicio disposición</td>
+                <td id="val7">$1</td>
+            </tr>
+            <tr>
+                <td><b>SUBTOTAL</b></td>
+                <td id="val8">$1</td>
+            </tr>
+            <tr>
+                <td><b>DESCUENTO</b></td>
+                <td id="val9">$1</td>
+            </tr>
+            <tr>
+                <td><b>TOTAL</b></td>
+                <td id="val10">$1</td>
+            </tr>
+        </table>
+        </div>
+      <div id="footer">
+        <p>Footer</p>
+      <!-- end #footer --></div>
+    <!-- end #container --></div>
+</body>
+<script src="/FunerariaBuenDescanso/scripts/scripts.js"></script>
+</html>
