@@ -1,7 +1,7 @@
 <!-- 
 body  {
 	font: 100% Verdana, Arial, Helvetica, sans-serif;
-	background: #666666;
+	background-image: url(../recursos/01.jpg);
 	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
 	padding: 0;
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
@@ -9,13 +9,13 @@ body  {
 }
 .thrColLiqHdr #container { 
 	width: 80%;  /* this will create a container 80% of the browser width */
-	background: #FFFFFF;
+	background-color: white;
 	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
 	border: 1px solid #000000;
 	text-align: left; /* this overrides the text-align: center on the body element. */
 } 
 .thrColLiqHdr #header { 
-	background: #DDDDDD; 
+	background-image: url(../recursos/background-head2.jpg);
 	padding: 0 10px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
 } 
 .thrColLiqHdr #header h1 {
@@ -31,13 +31,13 @@ body  {
 .thrColLiqHdr #sidebar1 {
 	float: left; /* this element must precede in the source order any element you would like it be positioned next to */
 	width: 22%; /* since this element is floated, a width must be given */
-	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	background-color: white;
 	padding: 15px 0; /* top and bottom padding create visual space within this div  */
 }
 .thrColLiqHdr #sidebar2 {
 	float: right; /* this element must precede in the source order any element you would like it be positioned next to */
 	width: 23%; /* since this element is floated, a width must be given */
-	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	background-color: white;
 	padding: 15px 0; /* top and bottom padding create visual space within this div */
 }
 .thrColLiqHdr #sidebar1 p, .thrColLiqHdr #sidebar1 h3, .thrColLiqHdr #sidebar2 p, .thrColLiqHdr #sidebar2 h3 {
@@ -56,7 +56,7 @@ body  {
 
 .thrColLiqHdr #footer { 
 	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
-	background:#DDDDDD;
+	
 } 
 .thrColLiqHdr #footer p {
 	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
@@ -84,3 +84,20 @@ body  {
 .thrColLiqHdr #sidebar2, .thrColLiqHdr #sidebar1 { padding-top: 30px; }
 .thrColLiqHdr #mainContent { zoom: 1; padding-top: 15px; }
 /* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
+
+footer a{
+	color: white;
+	padding: auto;
+}
+img{
+	width: 350px;
+}
+#sidebar1 a:link,a:visited{
+	text-decoration: none;
+	color: black;
+}
+#sidebar1 a:hover{
+	text-decoration: none;
+	color: blue;
+	background-color: aquamarine;
+}
