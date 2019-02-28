@@ -1,8 +1,18 @@
-.borders{ 
-    width: 30%;
-    height: 30%;
+#content{ 
+    width: 40%;
+    height: 60%;
     border-color: black;
     border-style: solid;
     border-collapse: collapse;
 }
-
+#container{
+    margin-left: 100px;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    padding: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: darkolivegreen;
+}
