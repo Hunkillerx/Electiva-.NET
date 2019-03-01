@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="José Diaz">
     <link rel="stylesheet" href="../Taller 3/CSS/style.css">
-    <title>Document</title>
+    meta:author
+    <title>Punto 1</title>
 </head>
 
 <body>
     <div id="container">
+            <div id="header">
+                    <h1>Taller #3 .NET</h1>
+                </div>
         <div id="navbar">
             <a href="../Taller 3/punto1.html">Punto 1</a>
             <a href="../Taller 3/punto2.html">Punto 2</a>
@@ -20,25 +25,29 @@
         <div id="content">
             <div id="punto1" class="borders">
                 <p>
-                    <input type="text" id="valorB" name="valB">
+                    <label><b> Valor base de producto </b></label>
                     <br>
-                    <label>Valor base de producto</label>
+                    <input type="text" id="valorB" name="valB">
                 </p>
                 <p>
-                    <input type="text" id="valorI" name="valI">
+                    <label> <b> Valor Iva</b></label>
                     <br>
-                    <label>Valor Iva</label>
+                    <input type="text" id="valorI" name="valI">
+
+                </p>
+                <p>
+                    <b> Valor Total </b>
                 </p>
                 <p id="valorT">
                 </p>
-                Valor Total
                 <p>
                     <input type="button" value="Calcular" id="calcularIva" name="submit">
                 </p>
             </div>
         </div>
+        <div id="rightside">
+            <img src="../Taller 3/Recursos/meme.jpg" alt="">
+        </div>
     </div>
 </body>
-<script type="text/javascript" src="../Taller 3/JS/script1.js"></script>
-
 </html>

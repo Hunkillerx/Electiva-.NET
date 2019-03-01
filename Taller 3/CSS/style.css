@@ -7,12 +7,34 @@
 }
 #container{
     margin-left: 100px;
-    width: 600px;
-    height: 500px;
+    width: 80%;
+    height: 80%;
     background-color: white;
     padding: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#navbar{
+    border-style: ridge;
+    width: 25%;
+    background-color: olive;
+}
 body{
     background-color: darkolivegreen;
+}
+#rightside{
+    width: 40%;
+    right: 0;
+    padding-top: 10px;
+}
+
+a:visited,a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: royalblue;
+}
+img{
+    width: 100%;
+    border-radius: 15%;
 }
